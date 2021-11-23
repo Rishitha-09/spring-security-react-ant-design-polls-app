@@ -1,4 +1,4 @@
-##package com.example.polls.config;
+package com.example.polls.config;
 
 import com.example.polls.security.UserPrincipal;
 import org.springframework.context.annotation.Bean;

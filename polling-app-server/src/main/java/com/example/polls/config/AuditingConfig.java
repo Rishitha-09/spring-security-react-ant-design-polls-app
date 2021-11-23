@@ -37,6 +37,6 @@ class SpringSecurityAuditAwareImpl implements AuditorAware<Long> {
 
         return Optional.ofNullable(userPrincipal.getId());
         
-        aaaaa
+       
     }
 }

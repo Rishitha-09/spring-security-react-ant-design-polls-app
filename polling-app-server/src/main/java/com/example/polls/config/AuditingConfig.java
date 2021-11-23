@@ -1,6 +1,6 @@
 package com.example.polls.config;
 
-##import com.example.polls.security.UserPrincipal;
+import com.example.polls.security.UserPrincipal;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.AuditorAware;
@@ -36,5 +36,7 @@ class SpringSecurityAuditAwareImpl implements AuditorAware<Long> {
         UserPrincipal userPrincipal = (UserPrincipal) authentication.getPrincipal();
 
         return Optional.ofNullable(userPrincipal.getId());
+        
+        aa*********************
     }
 }
